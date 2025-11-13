@@ -94,3 +94,33 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#searchForm {
+  margin-bottom: 2rem;
+}
+
+#moviesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  
+  .movieContainer {
+    width: 20%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .imgContainer {
+      width: 100%;
+
+      img {
+        width: 80%;
+        border: 2px solid white;
+        border-radius: 20px;
+      }
+    }
+  }
+}
